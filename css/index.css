@@ -14,9 +14,9 @@
 .navbar-custom .navbar-toggle:hover{background-color:#18BC9C;color:#fff;border-color:#18BC9C}
 
 .navbar-custom{
-	background:#2C3E50;
-	font-weight:700;
-	border:none;
+  background:#2C3E50;
+  font-weight:700;
+  border:none;
 }
 
 /* Reajustement de la taille du menu en scrollant */
@@ -35,8 +35,8 @@ nav.shrink .navbar-brand {
 
 /* Couleur du texte lorsqu'on passe la souris */
 .navbar-custom .navbar-nav li a:hover{
-	color:#18BC9C;
-	background:transparent;}
+  color:#18BC9C;
+  background:transparent;}
 
 
 /* GRAND MENU */
@@ -44,13 +44,13 @@ nav.shrink .navbar-brand {
 @media (min-width:768px){
 
 
-	.navbar-custom{padding:25px 0;-webkit-transition:padding .3s;-moz-transition:padding .3s;transition:padding .3s}
+  .navbar-custom{padding:25px 0;-webkit-transition:padding .3s;-moz-transition:padding .3s;transition:padding .3s}
 
-	/* Taille de la marque du grand menu */
-	.navbar-custom .navbar-brand{font-size:2em;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
+  /* Taille de la marque du grand menu */
+  .navbar-custom .navbar-brand{font-size:2em;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
 
-	/* Couleur du menu coulissant */
-	.navbar-custom .dropdown-menu{background-color: #2C3E50}
+  /* Couleur du menu coulissant */
+  .navbar-custom .dropdown-menu{background-color: #2C3E50}
 
 }
 
@@ -69,10 +69,10 @@ header .intro-text .etatcivil p{font-size:1.20em;font-weight:300; color:#fff;}
 
 /* Lorsqu'on est au dessus de 768px, le header prends une taille plus grande. La taille du texte change également!*/
 @media (min-width:768px){
-	header .container{padding-top:200px;padding-bottom:100px}
-	header .intro-text .name{font-size:4.75em}
-	header .intro-text .skills{font-size:1.75em}
-	header .intro-text .etatcivil p{font-size:1.50em}
+  header .container{padding-top:200px;padding-bottom:100px}
+  header .intro-text .name{font-size:4.75em}
+  header .intro-text .skills{font-size:1.75em}
+  header .intro-text .etatcivil p{font-size:1.50em}
 }
 
 /* Bande de soulignement */
@@ -100,12 +100,12 @@ section{padding:100px 0}
 /* En dessous de 767px */ 
 
 @media (max-width:767px){
-	section{padding:75px 0}
+  section{padding:75px 0}
 }
 
 .about hr{
-	border-color: #18BC9C;
-	border-style: double;
+  border-color: #18BC9C;
+  border-style: double;
     border-width: 1px;
     margin-top: 10px;
     max-width: 200px;
@@ -113,16 +113,16 @@ section{padding:100px 0}
 }
 
 .about p{
-	margin-top: 5px;
-	text-align: justify;
+  margin-top: 5px;
+  text-align: justify;
 }
 
 /* FIN AJUSTEMENT A PROPOS */
 
 /* AJUSTEMENT CONTACT */
 .contact {
-	background:#18BC9C;
-	color: #fff;
+  background:#18BC9C;
+  color: #fff;
 }
 
 .contact hr {
@@ -137,8 +137,8 @@ section{padding:100px 0}
  /* AJUSTEMENT FORMATION */
 
 .formation hr{
-	border-color: #18BC9C;
-	border-style: double;
+  border-color: #18BC9C;
+  border-style: double;
     border-width: 1px;
     margin-top: 10px;
     max-width: 200px;
@@ -146,8 +146,8 @@ section{padding:100px 0}
 }
 
 .formation p{
-	margin-top: 5px;
-	text-align: justify;
+  margin-top: 5px;
+  text-align: justify;
 }
 
    .mobile-show {display: none;}
@@ -162,8 +162,8 @@ section{padding:100px 0}
  /* AJUSTEMENT COMPETENCES */
 
 .competences {
-	background:#18BC9C;
-	color: #fff;
+  background:#18BC9C;
+  color: #fff;
 }
 
 .competences hr {
@@ -194,8 +194,8 @@ section{padding:100px 0}
  /* AJUSTEMENT EXPERIENCE */
 
 .exp hr{
-	border-color: #18BC9C;
-	border-style: double;
+  border-color: #18BC9C;
+  border-style: double;
     border-width: 1px;
     margin-top: 10px;
     max-width: 200px;
@@ -203,8 +203,8 @@ section{padding:100px 0}
 }
 
 .exp p{
-	margin-top: 5px;
-	text-align: justify;
+  margin-top: 5px;
+  text-align: justify;
 }
 
 /* FIN AJUSTEMENT EXPERIENCE */
