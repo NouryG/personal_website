@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NOURYG - PROJET WEB</title>
+  <link href="core/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css" type="text/css" media="all" />
+  <link href="core/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="core/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="core/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="core/js/jqBootstrapValidation.js"></script>
+    <script src="core/js/contact_me.js"></script>
+    <script type="text/javascript" src="core/js/projetnoury.js"></script>
+
+</head>
+
+<body>
+<div class="top" id="top"></div>
+<nav class="navbar-custom navbar-fixed-top">  <!--le fixed top permet de bloquer le menu sur le haut de l'ecran -->
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i> <!-- mise en place d'un bouton menu qui n'apparait que lorsque la page est petite-->
+        </button>
+        <a class="navbar-brand" id="b0"  href="javascript:void(0);">NouryG</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html">Page d'Accueil</a>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="cv.html" role="button" aria-haspopup="true" aria-expanded="false">Naviguez dans mon CV<span class="caret"><!-- permet d'ajouter la petite fleche --></span></a> <!-- petit menu coulissant pour choisir une navigation rapide -->
+            <ul class="dropdown-menu">
+                <li>
+                  <a  id="b3_1" class="hidden-xs"  href="javascript:void(0);">Formation</a>
+                  <a  id="b3" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Formation</a>
+                  <a  id="b4_1" class="hidden-xs"  href="javascript:void(0);">Compétences</a>
+                  <a  id="b4" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Compétences</a>
+                  <a  id="b5_1" class="hidden-xs"  href="javascript:void(0);">Expériences</a>
+                  <a  id="b5" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Expériences</a>
+              </li>
+            </ul>
+        </li>
+            <li>
+                <a href="ressources.html">Quelques Ressources..</a>
+            </li>
+        </ul>
+  </div>
+</nav>
+
+<header>
+<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <span class="name">Curriculum vitæ</span>
+                        <hr>
+                        <span class="etatcivil">
+                            <div class="col-lg-8 col-lg-offset-2"><p>Vous trouverez sur cette page toutes les informations relatives à mon parcours scolaire ou professionnel. Pour recevoir des informations complémentaires qui ne sont pas présentes sur la page, merci de bien vouloir passer par le formulaire de contact présent en page d'accueil.</p></div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</header>
+
+<section class="formation" id="formation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center"> <!-- On partage l'écran en 12 colonnes -->
+                    <h2>Formation</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center"> <!-- On selectionne 4 colonnes par petit texte -->
+                    <h3 style="padding-top: 15px">Télécom Saint-Étienne</h3>
+                    <p style="text-align: center; font-size: 10px">(Saint-Étienne, France)</p>
+                    <p style="text-align: center; font-size: 20px;font-style: italic">Parcours Informatique et Réseaux</p>
+                    <p style="text-align: center; font-size: 16px; font-weight: bold">(2015 - Actuel)</p>
+                    <div class="mobile-show"><hr style="border-color: gray; margin-top: 20px; max-width: 150px;"></div>
+                    <!-- Pour n'afficher la barre de séparation qu'en version mobile -->
+
+                </div>
+                <div class="col-lg-4 text-center">
+                    <h3 style="padding-top: 15px">Lycée Préparatoire Saliège</h3>
+                    <p style="text-align: center; font-size: 10px">(CPGE - Toulouse, France)</p>
+                    <p style="text-align: center; font-size: 20px; font-style: italic">Classe de PSI</p>
+                    <p style="text-align: center; font-size: 16px; font-weight: bold">(2013 - 2015)</p>
+                    <div class="mobile-show"><hr style="border-color: gray; margin-top: 20px; max-width: 150px;"></div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <h3 style="padding-top: 15px">Lycée Lyautey</h3>
+                    <p style="text-align: center; font-size: 10px">(Casablanca, Maroc)</p>
+                    <p style="text-align: center; font-size: 20px; font-style: italic;">Baccalauréat Scientifique Français Spécialité Physique - Mention Bien</p>
+                    <p style="text-align: center; font-size: 16px; font-weight: bold">(2013)</p>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="competences" id="competences">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Compétences</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center"> <!-- On selectionne 4 colonnes par petit texte -->
+                    <h3>Langues</h3>
+                    <div>
+                    <span class="title">Français, Arabe</span>
+                    <span class="details">(Langues Maternelles)</span>
+                    </div>
+                    <div><span class="title">Anglais</span>
+                    <span class="details">(Niveau Bilingue)</span></div>
+                    <div><span class="title">Espagnol</span>
+                    <span class="details"">(Niveau B1)</span></div>
+                    <div class="mobile-show"><hr style="border-color: white; margin-top: 20px; max-width: 150px;"></div>
+                    <!-- Pour n'afficher la barre de séparation qu'en version mobile -->
+
+                </div>
+                <div class="col-lg-4 text-center">
+                    <h3>Softwares</h3>
+                    <div>
+                    <span class="title">AAAAAAAAA</span>
+                    <span class="details">BBBBBBBB</span>
+                    </div>
+                    <div><span class="title">AAAAAAAAA</span>
+                    <span class="details">BBBBBBBB</span></div>
+                    <div><span class="title">AAAAAAAAA</span>
+                    <span class="details"">BBBBBBBB</span></div>
+                    <div class="mobile-show"><hr style="border-color: white; margin-top: 20px; max-width: 150px;"></div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <h3>Techniques</h3>
+                    <div>
+                    <span class="title">AAAAAAAAA</span>
+                    <span class="details">BBBBBBBB</span>
+                    </div>
+                    <div><span class="title">AAAAAAAAA</span>
+                    <span class="details">BBBBBBBB</span></div>
+                    <div><span class="title">AAAAAAAAA</span>
+                    <span class="details"">BBBBBBBB</span></div>
+                    <div class="mobile-show"><hr style="border-color: white; margin-top: 20px; max-width: 150px;"></div>
+                </div>
+            </div>
+
+        </div>
+</section>
+
+<section class="exp" id="exp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Experience</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-lg-6">
+                        <h3>Location</h3>
+                        <p>Saint-Étienne, 42000
+                            <br>France</p>
+                    </div>
+                    <div class="footer-col col-lg-6">
+                        <h3>Sur le Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/ghali.noury" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/ghali-noury-353183118" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/nouryg/"  target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; NouryG, 2016.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
