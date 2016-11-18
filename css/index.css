@@ -207,6 +207,14 @@ section{padding:100px 0}
   text-align: justify;
 }
 
+.exp .title{
+   text-align: center; font-size: 20px; 
+}
+
+.exp .details{
+    text-align: center;font-size: 14px; font-weight: 200; font-style: italic
+}
+
 /* FIN AJUSTEMENT EXPERIENCE */
 
 /* FOOTER 1 */
