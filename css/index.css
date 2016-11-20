@@ -1,4 +1,12 @@
  body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;overflow-x:hidden}
+ html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
  p{font-size:20px}
  p.small{font-size:16px}
  a,a.active,a:active,a:focus,a:hover{color:#18BC9C;outline:0}
@@ -50,7 +58,7 @@ nav.shrink .navbar-brand {
   .navbar-custom .navbar-brand{font-size:2em;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
 
   /* Couleur du menu coulissant */
-  .navbar-custom .dropdown-menu{background-color: #2C3E50}
+  .navbar-custom .dropdown-menu{background-color: #2C3E50; box-sizing: border-box;}
 
 }
 
