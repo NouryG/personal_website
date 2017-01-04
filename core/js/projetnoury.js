@@ -112,4 +112,57 @@ $(document).ready(function (){
             });
         });
 
+// Script pour scroll avec bouton download
+$(document).ready(function (){
+            $("#b6_1").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#download").offset().top -70
+                }, 1500);
+            });
+        });
+
+// Script pour scroll avec bouton download
+$(document).ready(function (){
+            $("#b6").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#download").offset().top -50
+                }, 1500);
+            });
+        });
+
+// Script pour scroll avec bouton gif
+$(document).ready(function (){
+            $("#b7_1").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#gif_pic").offset().top -70
+                }, 1500);
+            });
+        });
+
+// Script pour scroll avec bouton gif
+$(document).ready(function (){
+            $("#b7").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#gif_pic").offset().top -50
+                }, 1500);
+            });
+        });
+
+// Script pour scroll avec bouton code
+$(document).ready(function (){
+            $("#b8_1").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#code").offset().top -70
+                }, 1500);
+            });
+        });
+
+// Script pour scroll avec bouton code
+$(document).ready(function (){
+            $("#b8").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#code").offset().top -50
+                }, 1500);
+            });
+        });
 

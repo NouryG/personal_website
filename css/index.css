@@ -4,6 +4,7 @@
     height: 100%;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 
 }
 
@@ -76,7 +77,7 @@ header{text-align:center;background:#18BC9C}
 
 /* Taille en petit écran */
 header .container{padding-top:100px;padding-bottom:50px}
-header .intro-text .name{display:block;font-weight:700;font-size:2em; color:#fff}
+header .intro-text .name{display:block;font-weight:700;font-size:2.5em; color:#fff}
 header .intro-text .skills{font-size:1.25em;font-weight:300; color:#fff;}
 header .intro-text .etatcivil p{font-size:1.20em;font-weight:300; color:#fff;}
 
@@ -235,6 +236,101 @@ section{padding:100px 0}
 }
 
 /* FIN AJUSTEMENT EXPERIENCE */
+
+
+
+/* AJUSTEMENT TELECHARGEMENT */
+
+.download hr{
+  border-color: #18BC9C;
+  border-style: double;
+    border-width: 1px;
+    margin-top: 10px;
+    max-width: 200px;
+    margin-left: auto;
+}
+
+.download p{
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.download a{
+  color:#2C3E50;
+}
+
+/* FIN AJUSTEMENT TELECHARGEMENT */
+
+/* AJUSTEMENT GIF */
+
+.gif_pic {
+  background:#18BC9C;
+  color: #fff;
+}
+
+.gif_pic hr {
+  border-color: white;
+  border-style: double;
+  border-width: 1px;
+  margin-top: 10px;
+  max-width: 200px;
+  margin-left: auto;
+}
+
+.gif_pic h3{
+  color:#2C3E50;
+  padding-top: 15px  
+}
+
+.gif_pic .title{
+  text-align: center; font-size: 20px; 
+}
+
+.gif_pic .details{
+  font-size: 14px; font-weight: 200; font-style: italic
+}
+
+
+/* FIN AJUSTEMENT GIF */
+
+/* AJUSTEMENT CODE */
+
+.code hr{
+  border-color: #18BC9C;
+  border-style: double;
+    border-width: 1px;
+    margin-top: 10px;
+    max-width: 200px;
+    margin-left: auto;
+}
+
+.code p{
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.code .title{
+   text-align: center; font-size: 20px; 
+}
+
+.code .details{
+    text-align: center;font-size: 14px; font-weight: 200; font-style: italic
+}
+
+.code .row{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.code pre{
+  text-align: left; font-size: 10px;"
+}
+
+@media (min-width: 768px){
+  .code pre{ font-size: 15px; }
+}
+
+/* FIN AJUSTEMENT CODE */
 
 /* FOOTER 1 */
 
